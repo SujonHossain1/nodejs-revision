@@ -2,23 +2,30 @@
 
 Please follow the below instructions to update node in your machine:
 
-### Windows
 
-1. Update npm
+- Install Wordpress on your server
+- Navigate to the `/wp-content/plugins` directory.
+
+
+1. Clone Repository
     ```sh
-    npm install npm@latest -g
+    git clone https://github.com/jshossen/migration-to-droip
     ```
-2. Clear npm cache
+2. Composer Install 
     ```sh
-    npm cache clean -f
+    composer install or update
     ```
-3. Install n
+3. Navigate to puppeteer
     ```sh
-    npm install -g n
+    cd puppeteer
     ```
-4. Update node to latest version
+4. Install package
     ```sh
-    n latest
+    npm install or yarn install
+    ```
+5. Start Server
+    ```
+    npms start or yarn start
     ```
 
 ### Mac
