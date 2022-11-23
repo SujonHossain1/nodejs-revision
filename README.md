@@ -3,31 +3,6 @@
 Please follow the below instructions to update node in your machine:
 
 
-- Install Wordpress on your server
-- Navigate to the `/wp-content/plugins` directory.
-
-
-1. Clone Repository
-    ```sh
-    git clone https://github.com/jshossen/migration-to-droip
-    ```
-2. Composer Install 
-    ```sh
-    composer install or update
-    ```
-3. Navigate to puppeteer
-    ```sh
-    cd puppeteer
-    ```
-4. Install package
-    ```sh
-    npm install or yarn install
-    ```
-5. Start Server
-    ```
-    npms start or yarn start
-    ```
-
 ### Mac
 
 1. With Homebrew
